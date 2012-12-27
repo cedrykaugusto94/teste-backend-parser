@@ -10,11 +10,11 @@ O parser deve ser capaz de ler o arquivo, agrugar os dados de cada jogo, e em ca
 
 ### Exemplo
 
-  21:42 Kill: 1022 2 22: <world> killed Isgalamido by MOD_TRIGGER_HURT
+  	21:42 Kill: 1022 2 22: <world> killed Isgalamido by MOD_TRIGGER_HURT
   
   O player "Isgalamido" morreu pois estava ferido e caiu de uma altura que o matou.
 
-  2:22 Kill: 3 2 10: Isgalamido killed Dono da Bola by MOD_RAILGUN
+  	2:22 Kill: 3 2 10: Isgalamido killed Dono da Bola by MOD_RAILGUN
   
   O player "Isgalamido" marou o player Dono da Bola usando a arma Railgun.
   
