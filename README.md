@@ -39,6 +39,58 @@ Para cada jogo o parser deve gerar algo como:
 
 Após construir o parser construa um script que imprima um relatório de cada jogo (simplemente imprimindo o hash) e um ranking geral de kills por jogador.
 
+## Plus
+
+Gerar um relatório de mortes agrupando pelo motivo da morte, por partida.
+
+Causas de morte (retirado do [código fonte](https://github.com/id-Software/Quake-III-Arena/blob/master/code/game/bg_public.h))
+
+	// means of death
+	typedef enum {
+		MOD_UNKNOWN,
+		MOD_SHOTGUN,
+		MOD_GAUNTLET,
+		MOD_MACHINEGUN,
+		MOD_GRENADE,
+		MOD_GRENADE_SPLASH,
+		MOD_ROCKET,
+		MOD_ROCKET_SPLASH,
+		MOD_PLASMA,
+		MOD_PLASMA_SPLASH,
+		MOD_RAILGUN,
+		MOD_LIGHTNING,
+		MOD_BFG,
+		MOD_BFG_SPLASH,
+		MOD_WATER,
+		MOD_SLIME,
+		MOD_LAVA,
+		MOD_CRUSH,
+		MOD_TELEFRAG,
+		MOD_FALLING,
+		MOD_SUICIDE,
+		MOD_TARGET_LASER,
+		MOD_TRIGGER_HURT,
+	#ifdef MISSIONPACK
+		MOD_NAIL,
+		MOD_CHAINGUN,
+		MOD_PROXIMITY_MINE,
+		MOD_KAMIKAZE,
+		MOD_JUICED,
+	#endif
+		MOD_GRAPPLE
+	} meansOfDeath_t;
+
+Exemplo:
+
+	"game-1": {
+		kills_by_means: {
+			"MOD_SHOTGUN": 10,
+			"MOD_RAILGUN": 2,
+			"MOD_GAUNTLET": 1,
+			"XXXX": N
+		}
+	}
+
 # Requisitos
 
 1. Use ruby.
