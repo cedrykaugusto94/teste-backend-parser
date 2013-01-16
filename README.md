@@ -93,9 +93,9 @@ Exemplo:
 
 # Requisitos
 
-1. Use ruby.
+1. Use a linguagem que você tem mais habilidade.
 2. Faça testes unitários.
 3. Use git e tente fazer commits pequenos.
-4. Após concluir o teste suba o código para o github e nos envie a url do repositório.
+4. Após concluir o teste suba o código para um repositório privado no Bitbucket e nos dê permissão de leitura.
 
 HAVE FUN :)
