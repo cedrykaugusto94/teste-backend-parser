@@ -32,9 +32,9 @@ Para cada jogo o parser deve gerar algo como:
 
 ### Observações
 
-1. Quando o "\<world\>" mata o player ele perde -1 kill.
-2. "\<world\>" não é um player e não deve aparecer na lista de players e nem no dicionário de kills.
-3. `total_kills` são os kills dos games, isso inclui mortes do "<world>".
+1. Quando o `\<world\>` mata o player ele perde -1 kill.
+2. `\<world\>` não é um player e não deve aparecer na lista de players e nem no dicionário de kills.
+3. `total_kills` são os kills dos games, isso inclui mortes do `\<world\>`.
 
 ## Task 2
 
