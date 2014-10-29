@@ -97,6 +97,8 @@ Exemplo:
 1. Use a linguagem que você tem mais habilidade.
 2. Faça testes unitários.
 3. Use git e tente fazer commits pequenos.
-4. Após concluir o teste suba o código para um repositório privado no Bitbucket e nos dê permissão de leitura.
+4. Faça pelo menos um README explicando como fazer o setup, uma explicação da solução proposta, o mínimo de documentação para outro desenvolvedor entender seu código
+5. Siga o que considera boas práticas de programação, coisas que um bom desenvolvedor olhe no seu código e não ache "feio" ou "ruim".
+6. Após concluir o teste faça um zip e mande anexado no email de contato
 
 HAVE FUN :)
