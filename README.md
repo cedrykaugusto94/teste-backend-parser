@@ -94,9 +94,9 @@ Exemplo:
 
 # Requisitos
 
-1. Use a linguagem que você tem mais habilidade.
-2. Faça testes unitários.
-3. Use git e tente fazer commits pequenos.
+1. Use a linguagem que você tem mais habilidade (dentro das linguagens que priorizamos na empresa, obviamente começando com Ruby, depois Javascript, se tiver Java - pois fazemos Android, talvez Objective-C/Swift (se for iOS).
+2. Faça testes unitários, suite de testes bem organizados.
+3. Use git e tente fazer commits pequenos e bem descritos.
 4. Faça pelo menos um README explicando como fazer o setup, uma explicação da solução proposta, o mínimo de documentação para outro desenvolvedor entender seu código
 5. Siga o que considera boas práticas de programação, coisas que um bom desenvolvedor olhe no seu código e não ache "feio" ou "ruim".
 6. Após concluir o teste faça um zip e mande anexado no email de contato
