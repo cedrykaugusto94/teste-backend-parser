@@ -40,6 +40,10 @@ Para cada jogo o parser deve gerar algo como:
 
 Após construir o parser construa um script que imprima um relatório de cada jogo (simplemente imprimindo o hash) e um ranking geral de kills por jogador.
 
+## Task 3
+
+Construir uma API com qualquer Linguagem que busque o resultado do Game por ID
+
 ## Plus
 
 Gerar um relatório de mortes agrupando pelo motivo da morte, por partida.
@@ -94,7 +98,7 @@ Exemplo:
 
 # Requisitos
 
-1. Use a linguagem que você tem mais habilidade (dentro das linguagens que priorizamos na empresa, obviamente começando com Ruby, depois Javascript, se tiver Java - pois fazemos Android, talvez Objective-C/Swift (se for iOS).
+1. Com exeção da TASK 3, o exercício deverá ser feito com a Linguagem Java
 2. Faça testes unitários, suite de testes bem organizados.
 3. Use git e tente fazer commits pequenos e bem descritos.
 4. Faça pelo menos um README explicando como fazer o setup, uma explicação da solução proposta, o mínimo de documentação para outro desenvolvedor entender seu código
