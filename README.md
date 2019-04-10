@@ -103,6 +103,7 @@ Exemplo:
 3. Use git e tente fazer commits pequenos e bem descritos.
 4. Faça pelo menos um README explicando como fazer o setup, uma explicação da solução proposta, o mínimo de documentação para outro desenvolvedor entender seu código
 5. Siga o que considera boas práticas de programação, coisas que um bom desenvolvedor olhe no seu código e não ache "feio" ou "ruim".
-6. Após concluir o teste faça um zip e mande anexado no email de contato
+6. Após concluir o teste, envie o link do repositório com a solução commitado no github respondendo o email de contato.
+
 
 HAVE FUN :)
